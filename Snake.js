@@ -188,7 +188,7 @@ function hittedTheWall(){
 function displayLoseMessage(){
     stop();
     console.log("🐍You losed!!!🐍 \n🎮Play again ?🎮");
-    const choise=confirm("🐍You losed!!!🐍 \n\n🎮Play again ?🎮");
+    const choise=confirm("🐍 Your score is: "+snakeBody.length+" 🐍\n\n🎮Play again ?🎮");
     if(choise){location.reload();}
     
     
