@@ -21,7 +21,7 @@ gameBoard.style.setProperty('grid-template-rows', 'repeat('+GRID_SIZE+', 1fr)');
 let SNAKE_SPEED =10;
 let GROWTH_RATE=1;
 let GROW =false;
-const snakeBody = [{x:10,y:3},{x:10,y:2},{x:10,y:1},{x:11,y:1},{x:10,y:1}];
+const snakeBody = [{x:10,y:3}];
 const food={x:10,y:15}; 
 
 function draw(snakeBody,game_board){
